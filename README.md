@@ -11,6 +11,7 @@ This Python CLI application converts a CSV into a file for [SankeyMATIC](https:/
 4. Export as CSV
 5. Run `python ctskey.py -f <path-to-csv-file>`
 6. Open the `out` directory and view the contents of `sankey.skmt`.
+7. Paste contents into [SankeyMATIC](https://sankeymatic.com/)
 
 ## Next step
 Currently this program will only create a file which you then must copy and paste into SankeyMATIC. My plan is to write a web scraper which will interact with the form on the site and return the user a Sankey diagram.
